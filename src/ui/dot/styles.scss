@@ -1,0 +1,16 @@
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #dbdbdb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .innerDot {
+    border: 4px solid #4690ff;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+  }
+}
